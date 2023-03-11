@@ -1,23 +1,29 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 #include <stdio.h>
 using namespace std;
-
-int gcd(int x, int y) {
-    if(y==0) return x;
-    return gcd(y, x%y);
-}
-
-
+//1476번 날짜 계산(브루트 포스)
 int main() {
-    int n,m;
-     scanf("%d %d", &n ,&m);
+    int z, x, y;
 
-    int ma = max(n,m);
-    int mi = min(n,m);
+    scanf("%d %d %d", &z, &x, &y);
+    int E=0, S=0, M=0, i=0;
 
-    int g = gcd(ma, mi);
-
-    printf("%d\n%d", g, ma*mi/g);
+    while(1){
+        E++;
+        S++;
+        M++;
+        i++;
+        if(E==z && S==x && M==y) {
+            printf("%d", i);
+            return 0;
+        }
+        if(E>=15)
+            E=0;
+        if(S>=28)
+            S=0;
+        if(M>=19)
+            M=0;
+    }
     return 0;
 }
