@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+/*
 using namespace std;
 int n,a[1000],b[1000];
 int ma=-21;
@@ -29,3 +30,4 @@ int main() {
     f(0, 0);
     printf("%d\n", ma);
 }
+ */

@@ -1,4 +1,5 @@
 #include <stdio.h>
+/*
 int n,m;
 int a[100];
 int ch[100];
@@ -34,3 +35,4 @@ int main() {
 
 
 }
+ */

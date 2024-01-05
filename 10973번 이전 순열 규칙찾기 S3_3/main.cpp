@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 
+/*
 using namespace std;
 int n,a[100001];
 int check,ma=9999999999;
@@ -49,3 +50,4 @@ int main() {
         printf("%d ", v[i]);
     }
 }
+ */

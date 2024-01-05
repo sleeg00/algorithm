@@ -1,3 +1,4 @@
+/*
 #include <vector>
 #include <iostream>
 #include <stdio.h>
@@ -50,3 +51,4 @@ int main() {
         printf("%d ", a[i]);
     return 0;
 }
+ */

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*
 int main() {
     int a[12];
     int n, b[100];
@@ -19,3 +20,4 @@ int main() {
         printf("%d\n", a[b[i]-1]);
     }
 }
+ */

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+/*
 using  namespace  std;
 int n,m;
 int s[100000];
@@ -46,3 +47,4 @@ int main() {
     }
     f(0);
 }
+ */

@@ -1,4 +1,6 @@
+/*
 #include<stdio.h>
+
 
 long a[100];
 int main() {
@@ -14,3 +16,4 @@ int main() {
     printf("%lld", a[n-1]);
     return 0;
 }
+*/
