@@ -1,2 +1,5 @@
+# Ignore CMakeLists.txt file
 CMakeLists.txt
-cmake-build-debug
+
+# Ignore cmake-build-debug directory
+cmake-build-debug/
