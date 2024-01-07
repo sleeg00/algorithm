@@ -1,3 +1,0 @@
-/Users/leeseonghyeon/Documents/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir
-/Users/leeseonghyeon/Documents/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/leeseonghyeon/Documents/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
