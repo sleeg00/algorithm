@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="algorithm" targetName="algorithm" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df9b0f11-800b-4843-a162-840eb8141aac" name="Changes" comment="[백준] 16947번 서울 지하철 2호선 DFS G3_3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.3" />
+  </component>
+  <component name="ProjectId" id="2MlNRpKXU4KwQhbb5jcKpy9Uzal" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/leeseonghyeon/Documents/algorithm",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/16947번 서울 지하철 2호선 DFS G3" />
+      <recent name="$PROJECT_DIR$/16929번 Two Dots DFS G5" />
+      <recent name="$PROJECT_DIR$/11724번 연결 요소의 개수 그래프 S2" />
+      <recent name="$PROJECT_DIR$/1912번 연속합 DP S2" />
+      <recent name="$PROJECT_DIR$/2193번 이친수 다이나믹 S3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm" TARGET_NAME="algorithm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithm" RUN_TARGET_NAME="algorithm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df9b0f11-800b-4843-a162-840eb8141aac" name="Changes" comment="" />
+      <created>1678338203960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678338203960</updated>
+      <workItem from="1678338205608" duration="6897000" />
+      <workItem from="1678542130942" duration="3569000" />
+      <workItem from="1678618288256" duration="9248000" />
+      <workItem from="1678699683968" duration="14239000" />
+      <workItem from="1678801978985" duration="4024000" />
+      <workItem from="1679137623262" duration="9936000" />
+      <workItem from="1679465552690" duration="752000" />
+      <workItem from="1679570652470" duration="4320000" />
+      <workItem from="1679836111862" duration="6083000" />
+      <workItem from="1679999511473" duration="2513000" />
+      <workItem from="1680351677293" duration="519000" />
+      <workItem from="1680352207020" duration="3146000" />
+      <workItem from="1680526761536" duration="932000" />
+      <workItem from="1680679882295" duration="2903000" />
+      <workItem from="1680783411555" duration="13646000" />
+      <workItem from="1680870666836" duration="2876000" />
+      <workItem from="1687160724629" duration="15000" />
+      <workItem from="1704437873612" duration="13186000" />
+    </task>
+    <task id="LOCAL-00001" summary="[백준] 1476번 날짜 계산 (브루트 포스) S5">
+      <created>1678543428097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678543428097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[백준] 9095번 1, 2, 3 더하기 (DP) 규칙찾기 S3">
+      <created>1678547636856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678547636856</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[백준] 15652번 N과M(4) 재귀 S3&#10;1번 참고함_1">
+      <created>1678623014022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678623014022</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[백준] 15652번 N과M(4) 재귀 S3&#10;1번 참고함_1">
+      <created>1678623035368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678623035368</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[백준] 15654번 N과M(5) 기존 응용 S3">
+      <created>1678626986082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678626986082</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[백준] 14501번 퇴사 (재귀) S3_1">
+      <created>1678712192847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678712192847</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[백준] 2529번 부등호 (재귀) S1_1">
+      <created>1679146443096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679146443096</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[백준] 1759번 암호 만들기 (재귀) G5_1">
+      <created>1679574031388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679574031388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[백준] 10973번 이전 순열(규칙) S3_3">
+      <created>1679894646328</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679894646328</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[백준] 2193번 이친수 다이나믹 S3_1">
+      <created>1680352647637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680352647637</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[백준] 1912번 연속합 다이나믹 S2_1">
+      <created>1680527688984</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680527688984</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[백준] 11724번 연결 요소의 개수 그래프 S2_4">
+      <created>1680851311570</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680851311570</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[백준] 16929번 Two Dots DFS G5_1">
+      <created>1680856554059</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680856554059</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[백준] 16947번 서울 지하철 2호선 DFS G3_3">
+      <created>1680872943083</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680872943083</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[백준] 1476번 날짜 계산 (브루트 포스) S5" />
+    <MESSAGE value="[백준] 9095번 1, 2, 3 더하기 (DP) 규칙찾기 S3" />
+    <MESSAGE value="[백준] 15652번 N과M(4) 재귀 S3&#10;1번 참고함_1" />
+    <MESSAGE value="[백준] 15654번 N과M(5) 기존 응용 S3" />
+    <MESSAGE value="[백준] 14501번 퇴사 (재귀) S3_1" />
+    <MESSAGE value="[백준] 2529번 부등호 (재귀) S1_1" />
+    <MESSAGE value="[백준] 1759번 암호 만들기 (재귀) G5_1" />
+    <MESSAGE value="[백준] 10973번 이전 순열(규칙) S3_3" />
+    <MESSAGE value="[백준] 2193번 이친수 다이나믹 S3_1" />
+    <MESSAGE value="[백준] 1912번 연속합 다이나믹 S2_1" />
+    <MESSAGE value="[백준] 11724번 연결 요소의 개수 그래프 S2_4" />
+    <MESSAGE value="[백준] 16929번 Two Dots DFS G5_1" />
+    <MESSAGE value="[백준] 16947번 서울 지하철 2호선 DFS G3_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="[백준] 16947번 서울 지하철 2호선 DFS G3_3" />
+  </component>
+</project>
