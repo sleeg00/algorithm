@@ -5,6 +5,7 @@
 // 하고 지우기
 // cnt랑 max랑 비교후 출력
 
+/*
 #include <iostream>
 #include <algorithm>
 #include <set>
@@ -61,3 +62,4 @@ int main(void) {
 
     cout << ma+1;
 }
+ */

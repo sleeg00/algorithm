@@ -1,7 +1,7 @@
 // M X N
 // 갈수 있는 경우를 찾아야 한다. 0일때
 // 입력(0,2) (4,4)
-
+/*
 #include <iostream>
 #include <algorithm>
 #include <queue>
@@ -72,3 +72,4 @@ int main(void) {
         cout << *itr << " ";
     }
 }
+ */

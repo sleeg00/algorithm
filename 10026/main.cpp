@@ -2,6 +2,7 @@
 // 빨강 초록 = 같은 구역으로 하나 아닌 구역으로 하나
 // 1초라서 음..
 
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -95,3 +96,4 @@ int main(void) {
         cout << *itr <<" ";
     }
 }
+ */

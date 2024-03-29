@@ -1,7 +1,7 @@
 // 이동할 수 있는 칸
 // 인접한 칸 [4][2]
 // 최소한의 칸 -> BFS
-
+/*
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -56,3 +56,4 @@ int main(void) {
     }
     bfs(0, 0);
 }
+ */

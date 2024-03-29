@@ -1,5 +1,5 @@
 // 3차원 배열 queue는?
-
+/*
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -70,3 +70,4 @@ int main(void) {
 
     }
 }
+ */

@@ -7,7 +7,7 @@
 // 7, 3
 
 //트리 처럼 따라가 cnt ==세기
-
+/*
 #include <iostream>
 #include <algorithm>
 #include <queue>
@@ -55,4 +55,4 @@ int main(void) {
     } else {
         cout << visit[b]-1;
     }
-}
+}*/

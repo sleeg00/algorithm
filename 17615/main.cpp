@@ -9,6 +9,7 @@
 // -> RED 1
 // -> 많음
 
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -65,3 +66,4 @@ int main(void) {
     }
     cout << min(min(bred, bblue), min(red, blue));
 }
+ */

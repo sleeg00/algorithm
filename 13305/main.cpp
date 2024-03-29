@@ -1,6 +1,6 @@
 // 주유소
 // N개 도시
-
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -34,3 +34,4 @@ int main(void) {
     }
     cout << hap << endl;
 }
+ */

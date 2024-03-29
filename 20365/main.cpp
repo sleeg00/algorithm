@@ -2,7 +2,7 @@
 // 임의 문제들 선택 -> 그리디
 // 0 = BLUE, 1 = RED
 // 연속된 0 이 존재하면 1번으로 체크
-
+/*
 #include <iostream>
 #include <algorithm>
 
@@ -47,3 +47,4 @@ int main() {
         cout << red.size()+1;
     }
 }
+ */
