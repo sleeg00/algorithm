@@ -19,60 +19,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df9b0f11-800b-4843-a162-840eb8141aac" name="Changes" comment="[백준] 16947번 서울 지하철 2호선 DFS G3_3">
       <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10026/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10431/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10973번 이전 순열 규칙찾기 S3_3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10986/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1103/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11403/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11660/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11724번 연결 요소의 개수 그래프 S2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1205/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1213/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13305/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14501번 퇴사 (재귀) S3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1476번 날짜계산 브루트포스 S5/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1522/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15652번 N과M(4) 백트래킹(재귀) S3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15654번 N과M(5) S3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16139/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1620번 나는야 포켓몬 마스터 이다솜/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16234/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16929번 Two Dots DFS G5/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16947번 서울 지하철 2호선 DFS G3_3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16953/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1699/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1743/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1759번 암호 만들기 (재귀) G5/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/17615/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1912번 연속합 DP S2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1927/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1987/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20115/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20310/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20365/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2075/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20922/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2164번 카드2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2178/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2193번 이친수 다이나믹 S3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/22233/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2529번 부등호 (재귀) S1 /main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/25682/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2583/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2644/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2870/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2910/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3986번 좋은 단어/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5014/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6593/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9095번 1, 2, 3 더하기 브루트포스 S3/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9375/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +120,7 @@
       <workItem from="1711252272517" duration="11647000" />
       <workItem from="1711345570459" duration="11316000" />
       <workItem from="1711423630991" duration="316000" />
-      <workItem from="1711430979600" duration="11639000" />
+      <workItem from="1711430979600" duration="11700000" />
     </task>
     <task id="LOCAL-00001" summary="[백준] 1476번 날짜 계산 (브루트 포스) S5">
       <created>1678543428097</created>
