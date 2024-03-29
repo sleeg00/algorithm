@@ -3,5 +3,3 @@ CMakeLists.txt
 
 # Ignore cmake-build-debug directory
 cmake-build-debug/
-
-##
