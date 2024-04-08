@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 
@@ -28,3 +29,4 @@ int main(void) {
         cout << dp[M][3]+dp[M][2]+dp[M][1] << '\n';
     }
 }
+*/
