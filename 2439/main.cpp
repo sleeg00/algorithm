@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <algorithm>
 #include <stack>
@@ -29,3 +30,4 @@ int main(void) {
         s.push({i, x});
     }
 }
+ */
