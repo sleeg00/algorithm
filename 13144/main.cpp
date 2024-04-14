@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -11,6 +12,7 @@ int visit[202][202];
 int ans = 0;
 queue<pair<int, pair<int, int>>> pq;
 int ch[202];
+
 int bfs(int x) {
     pq.push({0, {x, 1}});
 
@@ -20,10 +22,10 @@ int bfs(int x) {
         int check = pq.front().second.second;
         pq.pop();
         if (ch[temp] == 1) {
-            ch[temp]=0;
+            ch[temp] = 0;
             ans--;
         }
-        if (ans==0) {
+        if (ans == 0) {
             return 1;
         } else {
             for (int i = 1; i <= N; i++) {
@@ -31,7 +33,7 @@ int bfs(int x) {
                     if (visit[temp][i] == 0) {
                         visit[temp][i] = 1;
                         pq.push({cnt + 1, {i, check}});
-                    } else if (ch[i]==1) {
+                    } else if (ch[i] == 1) {
                         visit[temp][i] = 1;
                         pq.push({cnt + 1, {i, check}});
                     }
@@ -65,3 +67,4 @@ int main(void) {
         cout << "NO";
     }
 }
+ */
