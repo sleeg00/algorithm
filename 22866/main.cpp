@@ -1,8 +1,9 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <stack>
 #include <vector>
-#include <queue>
+
 
 using namespace std;
 int cnt[100001];
@@ -75,3 +76,4 @@ int main(void) {
         }
     }
 }
+ */
