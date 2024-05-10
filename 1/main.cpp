@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 
 
@@ -28,3 +29,4 @@ int main(int argc, char** argv)
     cout << check_ma;
     return 0;
 }
+ */
