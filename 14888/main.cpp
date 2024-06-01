@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <limits.h>
@@ -57,3 +58,4 @@ int main(void) {
     dfs(x1, x2, x3, x4, arr[0]);
     cout << mi << endl << ma;
 }
+ */
