@@ -1,3 +1,4 @@
+/*
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -58,3 +59,4 @@ int solution(vector<int> bandage, int health, vector<vector<int>> attacks) {
     }
     return answer;
 }
+ */
