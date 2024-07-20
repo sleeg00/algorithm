@@ -79,3 +79,92 @@ vector<vector<int>> solution(vector<vector<int>> data, string ext, int val_ext, 
     return answer;
 }
  */
+/*
+ * #include <string>
+#include <vector>
+#include <iostream>
+using namespace std;
+
+vector<string> split(string input, string delimiter){
+	vector<string> ret;
+    long long pos = 0;
+    string token = "";
+  	while((pos = input.find(delimiter)) != string::npos){ // string::npos는 \0
+    	token = input.substr(0, pos);
+        ret.push_back(token);
+        input.erase(0, pos + delimiter.length());
+    }
+    ret.push_back(input);
+    return ret;
+}
+vector<string> make_string (int y, int m, int d) {
+
+    vector<string> str;
+    string s="";
+    str.push_back(to_string(y));
+    if(m<10) {
+        s=("0"+to_string(m));
+        str.push_back(s);
+    } else if(m>=10){
+         str.push_back(to_string(m));
+    }
+    if(d<10) {
+        s=("0"+to_string(d));
+        str.push_back(s);
+    }else if(d>=10){
+         str.push_back(to_string(d));
+    }
+    return str;
+}
+vector<int> solution(string today, vector<string> terms, vector<string> privacies) {
+    // today 오늘 날짜 (체크할 날짜)
+    // terms 유효기간 배열
+    // privacies 번호, 개인정보 수집일자, 약관 종류
+        vector<int> answer;
+    vector<string> today_string = split(today, ".");
+    for(int i=0; i<privacies.size(); i++) {
+        vector<string> str = split(privacies[i], " "); // ["2021.05.02", "A"]
+        vector<string> day = split(str[0], "."); // ["2021", "05", "02"]
+        int y = stoi(day[0]);
+        int m = stoi(day[1]);
+        int d = stoi(day[2]);
+        if(d-1==0) {
+            d=28;
+            if(m-1==0) {
+                m=12;
+                y--;
+            } else {
+                m--;
+            }
+        } else {
+            d--;
+        }
+        day = make_string(y,m,d);
+
+        for(int j=0; j<terms.size(); j++) {
+            vector<string> t = split(terms[j], " ");
+            if(t[0]==str[1]) {
+                int k = m + stoi(t[1]);
+                int mock = k/12;
+                int nmg = k%12;
+                int _year = y+mock;
+                if(_year>stoi(today_string[0])) {
+                    break;
+                } else if(_year==stoi(today_string[0])) {
+                    if(nmg>stoi(today_string[1])) {
+                        break;
+                    }else if(nmg==stoi(today_string[1])) {
+                        if(d>=stoi(today_string[2])) {
+                            break;
+                        }
+                    }
+                }
+                answer.push_back(i+1);
+                break;
+            }
+        }
+    }
+
+    return answer;
+}
+ */
