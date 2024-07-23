@@ -168,3 +168,50 @@ vector<int> solution(string today, vector<string> terms, vector<string> privacie
     return answer;
 }
  */
+/*
+ * #include <string>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <set>
+#include <string.h>
+using namespace std;
+
+set<string> se;
+bool compare(string p, string q) {
+    return p.length() < q.length();
+}
+vector<string> split(string input, string delimiter, int plus) {
+    vector<string> ret;
+    string str ="";
+    long long pos = 0;
+   while ((pos = input.find(delimiter)) != string::npos){
+        str = input.substr(0, pos);
+        ret.push_back(str);
+        input.erase(0,pos+delimiter.length()+plus);
+    }
+    ret.push_back(input);
+    return ret;
+}
+vector<int> solution(string s) {
+    vector<int> answer;
+    string str="";
+    for(int i=2; i<s.length()-1; i++) {
+        str+=s[i];
+    }
+    vector<string> data = split(str, "}", 2);
+    sort(data.begin(), data.end(), compare);
+
+    for(int i=1; i<data.size(); i++) {
+       vector<string> split_com = split(data[i], ",", 0);
+        for(int j=0; j<split_com.size(); j++) {
+            if(se.find(split_com[j])==se.end()) {
+                se.insert(split_com[j]);
+                int number = stoi(split_com[j]);
+                answer.push_back(number);
+            }
+        }
+    }
+    return answer;
+}
+ */
