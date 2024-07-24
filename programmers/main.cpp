@@ -215,3 +215,86 @@ vector<int> solution(string s) {
     return answer;
 }
  */
+/*
+ * #include <string>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int arr[4][4];
+int mv[8][2] = {{0,1}, {0,-1}, {1,0}, {-1,0}, {1,1}, {-1,-1}, {1,-1}, {-1,1}};
+int visit[4][4];
+int search(int x, int y, int cnt, int dir) {
+
+
+    if (cnt == 3) {
+        return 1;
+    }
+
+    for (int i = 0; i < 8; i++) {
+        int dx = x + mv[i][0];
+        int dy = y + mv[i][1];
+
+        if (dx >= 0 && dy >= 0 && dx < 3 && dy < 3) {
+            if (dir == -1 || dir == i) {
+                if (visit[dx][dy] == 0 && arr[dx][dy] == arr[x][y]) {
+                    visit[dx][dy] = 1;
+                    if (search(dx, dy, cnt + 1, i) == 1) {
+                        return 1;
+                    }
+                    visit[dx][dy] = 0;
+                }
+            }
+        }
+    }
+
+    return 0;
+}
+
+int solution(vector<string> board) {
+    int answer = 1;
+    int first=0,second=0;
+    for(int i=0; i<board.size(); i++) {
+        for(int j=0; j<board[i].length(); j++) {
+            if(board[i][j]=='O') {
+                arr[i][j] = 0;
+                first++;
+            } else if(board[i][j]=='X') {
+                arr[i][j]=1;
+                second++;
+            } else {
+                arr[i][j] = -1;
+            }
+        }
+    }
+    if(first<second) {
+        return 0;
+    }
+    if(first==0 && second==0) {
+        return 1;
+    }
+
+    for(int i=0; i<3; i++) {
+        for(int j=0; j<3; j++) {
+            if(arr[i][j]!=-1) {
+                visit[i][j]=1;
+                if(search(i,j,1,-1)==1) {
+                    if(arr[i][j]==0) {
+                        if(first!=second+1) return 0;
+                    } else if(arr[i][j]==1) {
+                        if(first!=second) return 0;
+                    }
+                }
+                visit[i][j]=0;
+            }
+        }
+    }
+
+    if(first-1>second) {
+        return 0;
+    }
+    return answer;
+}
+ */
