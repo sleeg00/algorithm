@@ -74,6 +74,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm" TARGET_NAME="algorithm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithm" RUN_TARGET_NAME="algorithm">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -144,7 +149,8 @@
       <workItem from="1721452199234" duration="821000" />
       <workItem from="1721724326009" duration="42000" />
       <workItem from="1721724514359" duration="391000" />
-      <workItem from="1721810069808" duration="1000" />
+      <workItem from="1721810069808" duration="42000" />
+      <workItem from="1721898986941" duration="7028000" />
     </task>
     <task id="LOCAL-00001" summary="[백준] 1476번 날짜 계산 (브루트 포스) S5">
       <created>1678543428097</created>
