@@ -19,7 +19,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df9b0f11-800b-4843-a162-840eb8141aac" name="Changes" comment="[백준] 16947번 서울 지하철 2호선 DFS G3_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9663/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/9663/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15663/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/15663/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,7 @@
       <workItem from="1721724514359" duration="391000" />
       <workItem from="1721810069808" duration="42000" />
       <workItem from="1721898986941" duration="7893000" />
-      <workItem from="1722154113626" duration="4866000" />
+      <workItem from="1722154113626" duration="6085000" />
     </task>
     <task id="LOCAL-00001" summary="[백준] 1476번 날짜 계산 (브루트 포스) S5">
       <created>1678543428097</created>
