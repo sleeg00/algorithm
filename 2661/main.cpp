@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <set>
@@ -42,3 +43,4 @@ int main(void) {
     sort(v.begin(), v.end());
     cout << v[0];
 }
+ */
