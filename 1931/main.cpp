@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -19,7 +20,7 @@ int main()
 
     int time = list[0].first;
     int ans = 1;
-    int j = 0;
+
     for (int i = 1; i <= n; i++)
     {
         if (list[i].second >= time)
@@ -30,3 +31,4 @@ int main()
     }
     cout << ans;
 }
+*/
