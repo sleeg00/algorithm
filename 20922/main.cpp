@@ -1,23 +1,40 @@
-/*
+// 수열에서 같은 원소 여러개 X
+// 같은 원소가 K개 이하로 들어 있는 최장 연속 부분 수열 길이 구하기
+// 수열은 변경 안됨
+
+// left, right
+// visit[left]++
+// visit[left] > M
+// visit[start]--
 #include <algorithm>
 #include <iostream>
-#include <queue>
 
 using namespace std;
 
-int N, K, temp, sum[100001], ret = -2147483647;
+int arr[200001];
+int visit[200001];
+
 int main(void) {
-    cin >> N >> K;
+    cin.tie(NULL);
+    cout.tie(NULL);
+    ios_base::sync_with_stdio(false);
 
-    for (int i = 1; i <= N; i++)
-    {
-        cin >> temp;
-        sum[i] = sum[i - 1] + temp; // 구간합 배열
+    int N, M, left = 0, right = 0;
+    int ma = -1;
+    cin >> N >> M;
+    for (int i = 0; i < N; i++) {
+        cin >> arr[i];
     }
 
-    for (int i = K; i <= N; i++)
-    {
-        ret = max(ret, (sum[i] - sum[i - K]));
+    while (left <= right && right < N) {
+        if (visit[arr[right]] > M - 1) {
+            visit[arr[left]]--;
+            left++;
+        } else {
+            visit[arr[right]]++;
+            ma = max(ma, right - left);
+            right++;
+        }
     }
+    cout << ma + 1;
 }
-*/
