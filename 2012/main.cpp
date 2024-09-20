@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 
@@ -25,3 +26,4 @@ int main(void) {
     }
     cout << hap;
 }
+ */
