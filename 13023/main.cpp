@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -59,3 +60,4 @@ int main(void) {
     if(sw==0)
         cout << 0;
 }
+ */
