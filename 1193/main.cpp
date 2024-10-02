@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -38,3 +39,4 @@ int main(void) {
 
     cout << v[N - 1].first << "/" << v[N - 1].second;
 }
+ */
