@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -70,3 +71,4 @@ int main(void) {
     str = str.substr(0, str.size() - 2);
     cout << str << ">";
 }
+ */
