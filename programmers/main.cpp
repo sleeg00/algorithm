@@ -298,3 +298,51 @@ int solution(vector<string> board) {
     return answer;
 }
  */
+/*
+ * #include <string>
+#include <vector>
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+// 체육복 빌려주기
+// 체격 순으로 번호 매기기
+// 바로 앞번호 학생 or 뒷번호 학생에게만 체육복을 빌려줄 수 있다.
+//  3 |4| 5
+// 최대한 많은 학생이 빌릴 수 있도록
+// N = 전체 학생 수 , lost = 체육복 없는 학생 번호, reserve = 여벌 체육복을 가져온 학생들 번호
+int arr[31];
+int solution(int n, vector<int> lost, vector<int> reserve) {
+    int answer = 0;
+    for(int i=1; i<=n; i++) {
+        arr[i]=1;
+    }
+    for(int i=0; i<reserve.size(); i++) {
+        arr[reserve[i]]=3;
+    }
+    sort(lost.begin(), lost.end());
+    sort(reserve.begin(), reserve.end());
+    for(int i=0; i<lost.size(); i++) {
+        if(arr[lost[i]]==3) {
+            arr[lost[i]]=2;
+        } else {
+            arr[lost[i]]=0;
+        }
+    }
+    for(int i=0; i<lost.size(); i++) {
+        if(arr[lost[i]-1]==3) {
+            arr[lost[i]-1]=2;
+            arr[lost[i]]=1;
+        } else if(arr[lost[i]+1]==3) {
+            arr[lost[i]+1]=2;
+            arr[lost[i]]=1;
+        }
+    }
+    for(int i=1; i<=n; i++) {
+        if(arr[i]==0)
+            answer++;
+    }
+    answer = n -answer;
+    return answer;
+}
+ */

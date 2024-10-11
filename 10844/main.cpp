@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 
@@ -31,3 +32,4 @@ int main(void) {
 
     cout << hap%1000000000;
 }
+ */
