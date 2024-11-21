@@ -1,4 +1,5 @@
-#include <algorithm>
+
+/*#include <algorithm>
 #include <iostream>
 
 using namespace std;
@@ -42,3 +43,4 @@ int main(void) {
         cout << hap[ch - 'a'][r+1] - hap[ch - 'a'][l] << '\n';
     }
 }
+ */
