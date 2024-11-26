@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <deque>
@@ -43,6 +44,5 @@ int main(void) {
             }
         }
     }
-
-
 }
+ */
