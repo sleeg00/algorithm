@@ -34,6 +34,7 @@
 // 2 3 5 8 12 17 22 27 31 34 36 38  40 41 =>43/2 = >21
 // 0 1 2 3  4  5  5  5  4  3  2  2   2 1
 //(X+Y)/2 *2
+/*
 #include <algorithm>
 #include <iostream>
 
@@ -55,3 +56,4 @@ int main(void) {
         cout << value << '\n';
     }
 }
+ */
