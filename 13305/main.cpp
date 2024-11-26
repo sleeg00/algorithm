@@ -4,6 +4,7 @@
 // 도로의 길이 N-1개
 // 1L당 가격 N개 <= 1,000,000,000
 // 13:40
+/*
 #include <algorithm>
 #include <iostream>
 
@@ -31,3 +32,4 @@ int main(void) {
     }
     cout << hap;
 }
+ */
