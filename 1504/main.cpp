@@ -21,7 +21,7 @@ void resetDistance() {
     }
 }
 
-long long Dij(int start_node, vector<vector<pair<int, int>>> v, int index_node) {
+void Dij(int start_node, vector<vector<pair<int, int>>> v) {
     resetDistance();
     priority_queue<pair<int, int>> pq;
     pq.push({0, start_node});
@@ -41,7 +41,6 @@ long long Dij(int start_node, vector<vector<pair<int, int>>> v, int index_node) 
             }
         }
     }
-    return dist[index_node];
 }
 
 int main(void) {
@@ -59,12 +58,23 @@ int main(void) {
         v[y].push_back({x, weight});
     }
     cin >> v1 >> v2;
-    long long first_value = Dij(1, v, v1) + Dij(v1, v, v2) + Dij(v2, v, N);
-    long long second_value = Dij(1, v, v2) + Dij(v2, v, v1) + Dij(v1, v, N);
 
-    if (min(first_value, second_value) >= 2147483646) {
+    Dij(1, v);
+    long long first_v1 = dist[v1];
+    long long second_v2 = dist[v2];
+
+    Dij(v1, v);
+    long long end_n = dist[N];
+    long long end_v2 = dist[v2];
+
+    Dij(v2, v);
+    long long end_n2 = dist[N];
+
+    long long result = min((first_v1 + end_v2 + end_n2), (second_v2 + end_v2 + end_n));
+
+    if (result >= 2147483646) {
         cout << -1;
     } else {
-        cout << min(first_value, second_value);
+        cout << result;
     }
 }
