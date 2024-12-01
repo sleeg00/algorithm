@@ -1,83 +1,50 @@
 /*
-// 축구
-// 평일 오후 의무 참석 아님
-// N명 => 짝수
-// N/2명 스타트 팀, 링크
-//1,2 =
 #include <algorithm>
 #include <iostream>
-#include <vector>
+
 using namespace std;
+// 첫째 줄 수의 개수 N개
+// 수 들 Ai
+// +, -, *, / 개수
+int N, arr[300];
+int ma = -2147483646;
+int mi = 2147483646;
 
-int N;
-int arr[101][101];
-int hap = 0;
-int visit[101];
-int ma = 214748365;
-int v1[21];
-int v2[21];
-
-
-void dfs2(int x, int cnt) {
-    if (cnt + 1== N / 2) {
-        v2[cnt]=x;
-        int sum =0;
-        int sum2=0;
-        for(int i=0; i<N/2; i++) {
-            for(int j=i+1; j<N/2; j++) {
-                sum+=arr[v1[i]][v1[j]]+arr[v1[j]][v1[i]];
-                sum2+=arr[v2[i]][v2[j]]+arr[v2[j]][v2[i]];
-            }
+void dfs(int x, int y, int k, int z, int index, int hap) {
+    if (index == N) {
+        ma = max(ma, hap);
+        mi = min(mi, hap);
+    } else {
+        if (x != 0) {
+            int h = hap + arr[index + 1];
+            dfs(x - 1, y, k, z, index + 1, h);
         }
-        if(ma>abs(sum-sum2)) {
-            ma = abs(sum - sum2);
+        if (y != 0) {
+            int h = hap - arr[index + 1];
+            dfs(x, y - 1, k, z, index + 1, h);
         }
-    } else if (cnt < N / 2) {
-        for (int i = x; i < N; i++) {
-            if (visit[i] == 0 && x!=i) {
-                visit[x] = 1;
-                v2[cnt]=x;
-                dfs2(i, cnt+1);
-                visit[x] = 0;
-            }
+        if (k != 0) {
+            int h = hap  * arr[index + 1];
+            dfs(x, y, k-1, z, index + 1, h);
         }
-    }
-}
-
-void dfs(int x, int cnt) {
-    if (cnt + 1== N / 2) {
-        visit[x]=1;
-        v1[cnt]=x;
-        for (int i = 0; i < N; i++) {
-            if (visit[i] == 0) {
-                dfs2(i, 0);
-            }
-        }
-        visit[x]=0;
-    } else if (cnt < N / 2) {
-        for (int i = x + 1; i < N; i++) {
-            if (visit[i] == 0) {
-                visit[x] = 1;
-                v1[cnt] = x;
-                dfs(i, cnt+1);
-                visit[x] = 0;
-            }
+        if (z != 0) {
+            int h = hap / arr[index + 1];
+            dfs(x, y, k, z-1, index + 1, h);
         }
     }
 }
 
 int main(void) {
+    cin.tie(NULL);
+    cout.tie(NULL);
+    ios_base::sync_with_stdio(false);
+    int x, y, k, z;
     cin >> N;
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++) {
-            cin >> arr[i][j];
-            hap += arr[i][j];
-        }
+    for (int i = 1; i <= N; i++) {
+        cin >> arr[i];
     }
-    for (int i = 0; i < N; i++) {
-
-        dfs(i,0);
-    }
-    cout << ma;
+    cin >> x >> y >> k >> z;
+    dfs(x, y, k, z, 1, arr[1]);
+    cout << ma << endl << mi;
 }
  */

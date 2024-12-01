@@ -11,6 +11,7 @@
 // 2. Hash_map에 단어 횟수 cnt++
 // cmp로 자주 나오는 단어 먼저 , 같다면 단어 일기로 같다면 알파벳 사전 순으로 정렬
 
+/*
 #include <algorithm>
 #include <iostream>
 #include <unordered_map>
@@ -55,3 +56,4 @@ int main(void) {
         cout << v[i] << '\n';
     }
 }
+ */
