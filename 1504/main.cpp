@@ -1,3 +1,4 @@
+/*
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -78,3 +79,4 @@ int main(void) {
         cout << result;
     }
 }
+*/
